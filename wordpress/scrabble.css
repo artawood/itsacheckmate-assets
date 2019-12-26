@@ -1,0 +1,73 @@
+/* CSS scrabble */
+
+/* ---------- Customer FAQ Page ------------ */
+
+/* Question Section */
+.question-section {
+  display: flex;
+  padding-bottom: 10px;
+  font-family: Roboto, Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.question-q {
+  font-size: 40px;
+  font-weight: 500;
+  color: #04a89b;
+}
+
+.question-text {
+  font-size: 30px;
+  margin: 0px 0px 0px 5px;
+  color: #484545;
+}
+
+/* Answer Section */
+
+.answer-section {
+  display: flex;
+  padding-bottom: 10px;
+  font-family: Roboto, Tahoma, Verdana, Segoe, sans-serif;
+  color: #8f8f8f;
+}
+
+.answer-a {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.answer-text {
+  font-size: 20px;
+  margin: 5px 0px 0px 5px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.answer-text > strong {
+  color: #484545;
+}
+
+.faq-link {
+  color: #04a89b;
+  font-weight: 400;
+}
+
+.answer-ul {
+  margin: 10px 0px 0px 25px;
+}
+
+.answer-li {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.answer-li > strong {
+  color: #484545;
+}
+
+.faq-divider {
+  border-bottom: 1px solid #dddddd;
+  margin: 30px 0px;
+}
+
+/* ---------- Customer FAQ Page ------------ */
