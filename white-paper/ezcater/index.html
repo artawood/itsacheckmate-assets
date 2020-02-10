@@ -21,7 +21,6 @@
       }
       .white-paper-hero {
         background-image: url("https://www.itsacheckmate.com/wp-content/uploads/2020/02/hero-bg.png");
-        background-position: center;
         background-repeat: no-repeat;
         height: 350px;
       }
@@ -29,11 +28,13 @@
       @media (min-width: 992px) {
         .white-paper-hero {
           background-size: 100% 350px;
+          background-position: center;
         }
       }
       @media (max-width: 991px) {
         .white-paper-hero {
           background-size: cover;
+          background-position: 25% 0%;
         }
       }
       .white-paper-partner-logo {
@@ -102,7 +103,7 @@
     <!--End-->
     <!--Partner Logos-->
     <section>
-      <div class="container py-5">
+      <div class="container py-sm-4 py-md-5">
         <div class="row">
           <div class="col-lg-2"></div>
           <div class="col-lg-8">
@@ -116,13 +117,14 @@
               <div class="col-md-4 mx-auto py-4">
                 <img
                   src="https://www.itsacheckmate.com/wp-content/uploads/2020/02/plus.png"
-                  width="100"
+                  width="75"
+                  class="pt-md-4"
                 />
               </div>
               <div class="col-md-4 mx-auto py-4">
                 <img
                   src="https://www.itsacheckmate.com/wp-content/uploads/2020/02/ezcater-logo.png"
-                  width="250"
+                  width="300"
                   class="pt-md-4"
                 />
               </div>
